@@ -40,6 +40,7 @@ class JpqlApplicationTests {
 
 	@Test
 	public void findAllStudentPartialData() {
+		//this is a change
 		List<Object[]> student = repos.findAllStudentPartialData();
 		for (Object[] objects : student) {
 			System.out.println(objects[0]);
