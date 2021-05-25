@@ -24,8 +24,8 @@ class JpqlApplicationTests {
 	@Test
 	public void testStudentCreate() {
 		Student s = new Student();
-		s.setLname("Ravi");
-		s.setFirstName("Kumar");
+		s.setLname("Govind");
+		s.setFirstName("L");
 		s.setScore(75);
 		repos.save(s);
 	}// By default, Hibernate generates key from hibernate_sequence table, we can
